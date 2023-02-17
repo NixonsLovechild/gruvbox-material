@@ -1966,6 +1966,7 @@ highlight! link csStorage RedItalic
 highlight! link csClass RedItalic
 highlight! link csNewType Aqua
 highlight! link csContextualStatement PurpleItalic
+highlight! link csModifier RedBold
 highlight! link csInterpolationDelimiter Yellow
 highlight! link csInterpolation Yellow
 highlight! link csEndColon Fg
@@ -1979,7 +1980,7 @@ highlight! link pythonDecoratorName Blue
 " }}}
 " python-syntax: https://github.com/vim-python/python-syntax {{{
 highlight! link pythonExClass Purple
-highlight! link pythonBuiltinType Yellow
+highlight! link pythonBuiltinType YellowBold
 highlight! link pythonBuiltinObj Blue
 highlight! link pythonDottedName PurpleItalic
 highlight! link pythonBuiltinFunc GreenBold
