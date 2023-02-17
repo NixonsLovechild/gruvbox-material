@@ -353,6 +353,7 @@ if s:configuration.enable_bold
 else
   call gruvbox_material#highlight('RedBold', s:palette.red, s:palette.none)
   call gruvbox_material#highlight('OrangeBold', s:palette.orange, s:palette.none)
+  call gruvbox_material#highlight('WhiteBold', s:palette.white, s:palette.none)
   call gruvbox_material#highlight('YellowBold', s:palette.yellow, s:palette.none)
   call gruvbox_material#highlight('GreenBold', s:palette.green, s:palette.none)
   call gruvbox_material#highlight('AquaBold', s:palette.aqua, s:palette.none)
