@@ -290,13 +290,13 @@ call gruvbox_material#highlight('Operator', s:palette.orange, s:palette.none)
 call gruvbox_material#highlight('Title', s:palette.orange, s:palette.none, 'bold')
 call gruvbox_material#highlight('Special', s:palette.yellow, s:palette.none)
 call gruvbox_material#highlight('SpecialChar', s:palette.yellow, s:palette.none)
-call gruvbox_material#highlight('Type', s:palette.orange, s:palette.none)
+call gruvbox_material#highlight('Type', s:palette.purple, s:palette.none, 'bold')
 if s:configuration.enable_bold
-  call gruvbox_material#highlight('Function', s:palette.aqua, s:palette.none, 'bold')
+  call gruvbox_material#highlight('Function', s:palette.orange, s:palette.none, 'bold')
 else
   call gruvbox_material#highlight('Function', s:palette.green, s:palette.none)
 endif
-call gruvbox_material#highlight('String', s:palette.grey, s:palette.none, 'bold')
+call gruvbox_material#highlight('String', s:palette.aqua, s:palette.none, 'bold')
 call gruvbox_material#highlight('Character', s:palette.green, s:palette.none)
 call gruvbox_material#highlight('Constant', s:palette.aqua, s:palette.none)
 call gruvbox_material#highlight('Macro', s:palette.aqua, s:palette.none)
@@ -343,7 +343,6 @@ else
 endif
 if s:configuration.enable_bold
   call gruvbox_material#highlight('RedBold', s:palette.red, s:palette.none, 'bold')
-  call gruvbox_material#highlight('GreyBold', s:palette.grey, s:palette.none, 'bold')
   call gruvbox_material#highlight('OrangeBold', s:palette.orange, s:palette.none, 'bold')
   call gruvbox_material#highlight('YellowBold', s:palette.yellow, s:palette.none, 'bold')
   call gruvbox_material#highlight('GreenBold', s:palette.green, s:palette.none, 'bold')
@@ -353,7 +352,6 @@ if s:configuration.enable_bold
 else
   call gruvbox_material#highlight('RedBold', s:palette.red, s:palette.none)
   call gruvbox_material#highlight('OrangeBold', s:palette.orange, s:palette.none)
-  call gruvbox_material#highlight('WhiteBold', s:palette.grey, s:palette.none)
   call gruvbox_material#highlight('YellowBold', s:palette.yellow, s:palette.none)
   call gruvbox_material#highlight('GreenBold', s:palette.green, s:palette.none)
   call gruvbox_material#highlight('AquaBold', s:palette.aqua, s:palette.none)
