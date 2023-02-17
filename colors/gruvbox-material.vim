@@ -21,7 +21,7 @@ if !(exists('g:colors_name') && g:colors_name ==# 'gruvbox-material' && s:config
 endif
 
 let g:colors_name = 'gruvbox-material'
-
+$
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
 endif
@@ -1967,7 +1967,7 @@ highlight! link csClass RedItalic
 highlight! link csNewType Aqua
 highlight! link csContextualStatement PurpleItalic
 highlight! link csModifier RedBold
-highlight! link csAccessModifier PurpleBold
+highlight! link csAccessModifier AquaBold 
 highlight! link csInterpolationDelimiter Yellow
 highlight! link csInterpolation Yellow
 highlight! link csEndColon Fg
