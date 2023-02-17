@@ -1967,6 +1967,7 @@ highlight! link csClass RedItalic
 highlight! link csNewType Aqua
 highlight! link csContextualStatement PurpleItalic
 highlight! link csModifier RedBold
+highlight! link csAccessModifier PurpleBold
 highlight! link csInterpolationDelimiter Yellow
 highlight! link csInterpolation Yellow
 highlight! link csEndColon Fg
