@@ -343,6 +343,7 @@ else
 endif
 if s:configuration.enable_bold
   call gruvbox_material#highlight('RedBold', s:palette.red, s:palette.none, 'bold')
+  call gruvbox_material#highlight('WhiteBold', s:palette.white, s:palette.none, 'bold')
   call gruvbox_material#highlight('OrangeBold', s:palette.orange, s:palette.none, 'bold')
   call gruvbox_material#highlight('YellowBold', s:palette.yellow, s:palette.none, 'bold')
   call gruvbox_material#highlight('GreenBold', s:palette.green, s:palette.none, 'bold')
